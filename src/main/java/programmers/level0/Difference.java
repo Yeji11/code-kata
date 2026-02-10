@@ -5,14 +5,14 @@ package programmers.level0;
  * 풀이일: 2026-02-10
  */
 
-public class Solution {
+public class Difference {
         public int solution(int num1, int num2) {
             int answer = 0;
             answer = num1 - num2;
             return answer;
         }
         public static void main(String[]args){
-            Solution d = new Solution();
+            Difference d = new Difference();
             System.out.println(d.solution(2,3));
 
     }
